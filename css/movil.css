@@ -1,0 +1,171 @@
+@import url("tablet.css");
+@media screen and (max-width:480px){
+    .btn_tel_header{
+        display: none;
+    }
+    .btn_logo_header{
+        width: 250px;
+    }
+    .menu{
+        width: 85%;
+    }
+    .rslides .caption h1{
+        font-size: 35px;
+        line-height: 40px;
+        word-spacing: 0px;
+    }
+    .titulo_seccion h1{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .garantia article{
+        width: 100%;
+        padding: 50px 40px;
+    }
+    .banner{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 100%);
+    }
+    .banner:hover{
+        background-position: center;
+    }
+    .info_banner h1{
+        line-height: 35px;
+        font-size: 35px;
+    }
+    .cont_trabajos_banner{
+        width: 100%;
+    }
+    .cont_trabajos_banner div{
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    .cont_trabajos_banner div i{
+        font-size: 40px;
+    }
+    .cont_trabajos_banner div h3{
+        font-weight: normal;
+        margin-top: 20px;
+    }
+    .cont_trabajos_banner div p{
+        margin-top: 15px;
+        font-size: 45px;
+    }
+    .titulo2_seccion p{
+        margin-top: 20px;
+    }
+    #services_carrousel {
+        width: 390px;
+        margin: auto;
+    }
+    #services_carrousel .overview li {
+        margin: 0 10px 0 0;
+        width: 390px;
+    }
+    .btns_services_carrousel{
+        gap: 100px;
+        padding: 25px 0px;
+    }
+    .btns_services_carrousel .prev,.next{
+        font-size: 40px;
+    }
+    .customers .customers_uno img{
+        width: 100px;
+    }
+    #news_carrousel {
+        width: 390px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    #news_carrousel .overview li {
+        margin: 0 10px 0 0;
+        width: 390px;
+    }
+    #img_footer1{
+        display: none;
+    }
+    .info_footer{
+        padding-top: 50px;
+    }
+    .cont1_info_footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .cont2_info_footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .titular main{
+        padding: 5vh 0;
+    }
+    .titular .filtro div{
+        padding-right: 0%;
+    }
+    .titular div h1{
+        font-size: 35px;
+        line-height: 0px;
+        text-align: center;
+    }
+    .titular div p{
+        margin-top: 30px;
+        letter-spacing: .5px;
+        font-weight: lighter;
+        transform: rotateY(180deg);
+        text-align: center;
+    }
+    .skills figure{
+        width: 100%;
+    }
+    .info_skills{
+        width: 100%;
+    }
+    .info_skills article h2{
+        font-size: 25px;
+    }
+    .filtro_parallax{
+        height: 1000px;
+    }
+    .cards_parallax{
+        width: 90%;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .cards_parallax article{
+        width: 85%;
+        height: 300px;
+    }
+    #testimonials_carrousel {
+        width: 390px;
+        margin: auto;
+    }
+    #testimonials_carrousel .overview li {
+        margin: 0 10px 0 0;
+        width: 390px;
+    }
+    .btns_testimonials_carrousel{
+        gap: 100px;
+        padding: 25px 0px;
+    }
+    .btns_testimonials_carrousel .prev,.next{
+        font-size: 40px;
+    }
+    .cont_galeria_services{
+        height: 600px;
+    }
+    .cont_galeria_services a{
+        width: 50%;
+        height: 200px;
+        overflow: hidden;
+    }
+    .cont_acordeones_services{
+        width: 90%;
+    }
+}

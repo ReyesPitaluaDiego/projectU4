@@ -1,0 +1,286 @@
+@import url("estilo.css");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Oswald:wght@700&display=swap");
+.titular{
+    margin-top: 15vh;
+    margin-bottom: 50px;
+    color: var(--color_blanco);
+    background-image: url(../imagenes/index/logistic-info.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+}
+.titular main{
+    padding: 5vh 0;
+}
+.titular .filtro div{
+    padding-right: 56%;
+}
+.titular div h1{
+    font-size: 60px;
+    margin-bottom: 0;
+    font-family: var(--font_titulo_slide);
+    word-spacing: 2px;
+    transform: rotateY(180deg);
+}
+.titular div p{
+    margin-top: 30px;
+    letter-spacing: .5px;
+    font-weight: lighter;
+    transform: rotateY(180deg);
+}
+
+/* SKILLS */
+.skills{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 50px;
+}
+.skills figure{
+    flex-grow: 1;
+    overflow: hidden;
+}
+.skills figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info_skills{
+    width: 45%;
+    padding-top: 10px;
+}
+.info_skills article h2{
+    color: var(--color_aqua);
+}
+.info_skills article p{
+    color: var(--color_txtgris);
+    margin-top: 15px;
+}
+.info_skills article img{
+    margin: 18px 0px;
+}
+
+/* CONTENEDOR - VIDEO */
+.cont_parallax{
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../imagenes/about/parallax2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.filtro_parallax{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, .5);
+}
+.cards_parallax{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* gap: 80px; */
+}
+.cards_parallax article{
+    width: 350px;
+    height: 300px;
+    padding-top: 45px;
+    background-color: var(--color_gris);
+    box-shadow: 0px 0px 5px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards_parallax article i{
+    color: var(--color_aqua);
+    font-size: 60px;
+}
+.cards_parallax article p{
+    font-size: 60px;
+}
+.cards_parallax article hr{
+    width: 30%;
+    border: 5px var(--color_aqua) solid;
+}
+
+/* TEAM */
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+.team article {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 435px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #f0f0f0;
+    border-radius: 0px 0px 5px 5px;
+}
+.team article figure {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+.team article figure .filto_team{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(48, 167, 176, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+}
+.team article figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s;
+}
+.team .info_team {
+    border-radius: 0px 0px 5px 5px;
+    border-bottom: 0px;
+    background-color: var(--color_blanco);
+    text-align: center;
+    padding: 30px 0px;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    width: 100%;
+    transition: all 1s;
+}
+.team article:hover .info_team{
+    top: 285px;
+}
+.team article:hover .puesto_team{
+    color: var(--color_txtgris);
+}
+.team article:hover figure .filto_team{
+    background-color: rgba(48, 167, 176, .4);
+}
+.team .info_team h2{
+    font-size: 25px;
+    line-height: 25px;
+}
+.team .info_team .puesto_team {
+    font-size: 14px;
+    font-family: "Abel", sans-serif;
+    color: var(--color_aqua);
+}
+.team .info_team .redes_team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 18px;
+    margin-top: 20px;
+}
+.team .info_team .redes_team a {
+    font-size: 18px;
+    transform: scale(1);
+    transition: all .5s;
+    color: var(--color_aqua);
+}
+.team .info_team .redes_team a:hover {
+    transform: scale(1.2);
+}
+
+/* TESTIMONIALS */
+.cont_testimonials{
+    background-color: var(--color_gris);
+    width: 100%;
+    padding-bottom: 60px;
+    margin-top: 60px;
+}
+#testimonials_carrousel {
+    height: 300px;
+    position: relative;
+    width: 1200px;
+    margin: auto;
+}
+
+#testimonials_carrousel .viewport {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.btns_testimonials_carrousel{
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    right: -2%;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+.btns_testimonials_carrousel .buttons{
+    color: var(--color_aqua);
+    font-size: 40px;
+    opacity: .3;
+    transform: scale(1);
+    transition: all .5s;
+}
+#testimonials_carrousel .buttons:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#testimonials_carrousel .disable {
+    visibility: hidden;
+}
+
+#testimonials_carrousel .overview { /* ul */
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#testimonials_carrousel .overview li {
+    float: left;
+    margin: 0;
+    padding: 10px 10px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#testimonials_carrousel .overview li img{
+    border: 2px solid var(--color_gris);
+    border-radius: 50%;
+    transition: all .5s;
+}
+#testimonials_carrousel .overview li p{
+    color: var(--color_txtgris);
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+}
+#testimonials_carrousel .overview li h4{
+    font-family: var(--font_titulos);
+    font-weight: 400;
+}
+#testimonials_carrousel .overview li:hover img{
+    border: 2px solid var(--color_aqua);
+    box-shadow: 0px 0px 5px #ccc;
+}

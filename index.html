@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto-Final</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/movil.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <!-- Awesome -->
+    <script
+      src="https://kit.fontawesome.com/2ee0245f3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <!-- Responsive Slides -->
+    <script src="js/responsiveslides.min.js"></script>
+    <!-- Tiny Carrousel -->
+    <script src="js/jquery.tinycarousel.min.js"></script>
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body>
+    <!-- Animaciones -->
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <!-- FLECHA SUBIR -->
+    <div class="flecha_subir" id="subir">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+      <div class="cont_menu ancho">
+        <a class="btn_logo_header" href="index.html"
+          ><img src="imagenes/index/logo.png" alt=""
+        /></a>
+        <nav class="menu">
+          <img src="imagenes/index/logo.png" alt="" />
+          <ul>
+            <li><a href="index.html">- Home -</a></li>
+            <li>
+              <a href="html/about.html"
+                ><span class="guion_menu_hover">-</span> About Us
+                <span class="guion_menu_hover">-</span></a
+              >
+            </li>
+            <li>
+              <a href="html/services.html"
+                ><span class="guion_menu_hover">-</span> Services
+                <span class="guion_menu_hover">-</span></a
+              >
+            </li>
+            <li>
+              <a id="btn_header" href="#"><span class="guion_menu_hover">-</span> Contact <span class="guion_menu_hover">-</span></a>
+            </li>
+          </ul>
+          <p>© 2022 - LOGISTICA</p>
+        </nav>
+        <div class="cont_aux_header">
+          <i id="icon_menu_movil" class="fa-solid fa-bars"></i>
+          <a class="btn_tel_header" href="tel:9341237680"><i class="fa-solid fa-phone-volume"></i><i class="fa-solid fa-phone"></i>+1 (934) 123 76 80</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- SLIDE -->
+    <div class="rslides_container">
+      <ul class="rslides" id="slide3">
+        <li>
+          <!-- <img src="imagenes/index/slide1.jpg" alt="" class="aux" /> -->
+          <video src="videos/video1.mp4" preload autoplay loop muted></video>
+
+          <div class="caption">
+            <h1 class="wow animate__animated animate__bounceInDown">WE MAKE TRANSPORT<br />FAST AND SAFE</h1>
+            <p>We are on the road to carry your dreams</p>
+            <a href="https://plantillasdememes.com/img/plantillas/no-es-mucho-pero-es-trabajo-honesto01569991155.jpg" target="_blank">LEARN MORE</a>
+          </div>
+        </li>
+        <li>
+          <img src="imagenes/index/slide2.jpg" alt="" class="aux" />
+          <div class="caption">
+            <h1>WE DELIVERY YOUR<br />DELIVERY SAFELY</h1>
+            <p>We deliver your ligistics needs safely</p>
+            <a href="https://plantillasdememes.com/img/plantillas/no-es-mucho-pero-es-trabajo-honesto01569991155.jpg" target="_blank">LEARN MORE</a>
+          </div>
+        </li>
+        <li>
+          <img src="imagenes/index/slide3.jpg" alt="" class="aux" />
+          <div class="caption">
+            <h1>FAST EFFECTIVE AND<br />RELIABLE TRANSPORT</h1>
+            <p>
+              With our competent experience, we deliver your shipments on time
+            </p>
+            <a href="https://plantillasdememes.com/img/plantillas/no-es-mucho-pero-es-trabajo-honesto01569991155.jpg" target="_blank">LEARN MORE</a>
+          </div>
+        </li>
+        <li>
+          <img src="imagenes/index/slide4.jpg" alt="" class="aux" />
+          <div class="caption">
+            <h1>OUR UNLIMITED<br />TRANSPORTATION</h1>
+            <p>
+              We deliver seamlessly with our experienced staff and technology
+            </p>
+            <a href="https://plantillasdememes.com/img/plantillas/no-es-mucho-pero-es-trabajo-honesto01569991155.jpg" target="_blank">LEARN MORE</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- CONTENEDOR - TITULO -->
+    <main class="titulo_seccion">
+      <h1>ALWAYS FOR THE BETTER</h1>
+    </main>
+
+    <!-- GARANTIAS -->
+    <section class="garantia ancho">
+      <article>
+        <i class="fa-regular fa-truck-fast"></i>
+        <h3>SAFE DELIVERY</h3>
+        <p>
+          We realize smooth deliveries with our experienced staff and
+          technology.
+        </p>
+        <a class="btn_garantia" href="html/about.html">More</a>
+      </article>
+      <article>
+        <i class="fa-solid fa-people-group"></i>
+        <h3>EXPERIENCED TEAM</h3>
+        <p>
+          We provide service with our experienced team as a result of long
+          studies.
+        </p>
+        <a class="btn_garantia" href="html/about.html">More</a>
+      </article>
+      <article>
+        <i class="fa-solid fa-bullseye"></i>
+        <h3>QUALITY SERVICE</h3>
+        <p>
+          We work by focusing on the best in order to give you the best of all
+          our services.
+        </p>
+        <a class="btn_garantia" href="html/about.html">More</a>
+      </article>
+    </section>
+
+    <!-- BANNER -->
+    <section class="banner">
+      <div class="filtro">
+        <article class="info_banner ancho">
+          <h3>WE CARRY IT SAFELY TO THE FUTURE</h3>
+          <h1>WE MAKE LIMITS UNLIMITED</h1>
+          <p>
+            With our competent experience, we cross the borders in our logistics
+            services and make deliveries safely. We are moving towards our goals
+            by adopting fast and safe transportation as a principle.
+          </p>
+          <div class="cont_trabajos_banner wow animate__animated animate__backInLeft">
+            <div>
+              <i class="fa-solid fa-shop"></i>
+              <h3>BRANCH</h3>
+              <p>23</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-helmet-safety"></i>
+              <h3>WORKER</h3>
+              <p>90</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-truck-front"></i>
+              <h3>VEHICLE FLEET</h3>
+              <p>496</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTENEDOR - TITULO2 -->
+    <main class="titulo2_seccion ancho">
+      <h1>OUR LOGISTICS SERVICES</h1>
+      <p>
+        We are here for fast and reliable shipping. We deliver their deliveries
+        at jet speed.
+      </p>
+    </main>
+
+    <!-- SERVICES - CARROUSEL -->
+    <section id="services_carrousel">
+      <div class="viewport">
+        <ul class="overview">
+          <li>
+            <i class="fa-solid fa-road"></i>
+            <h3>ROAD HAULAGE</h3>
+            <p>
+              We provide economic and reliable Land Transportation services with
+              our team of experts working world and our constantly vehicle
+              fleet.
+            </p>
+            <a href="html/services.html">Review</a>
+          </li>
+          <!--  -->
+          <li>
+            <i class="fa-solid fa-plane-departure"></i>
+            <h3>AIRWAYS TRANSPORTING</h3>
+            <p>
+              We provide economic and reliable Air Freight services with our
+              team of experts working around the world and our constantly
+              renewed vehicle fleet.
+            </p>
+            <a href="html/services.html">Review</a>
+          </li>
+          <!--  -->
+          <li>
+            <i class="fa-solid fa-ferry"></i>
+            <h3>MARITIME TRANSPORT</h3>
+            <p>
+              We provide economic and reliable Land Transportation services with
+              our team of experts working world and our constantly vehicle
+              fleet.
+            </p>
+            <a href="html/services.html">Review</a>
+          </li>
+          <!--  -->
+          <li>
+            <i class="fa-solid fa-truck-ramp-box"></i>
+            <h3>PROJECT LOGISTICS</h3>
+            <p>
+              We provide economic and reliable Land Transportation services with
+              our team of experts working world and our constantly vehicle
+              fleet.
+            </p>
+            <a href="html/services.html">Review</a>
+          </li>
+          <!--  -->
+          <li>
+            <i class="fa-solid fa-warehouse"></i>
+            <h3>DUTY WAREHOUSE</h3>
+            <p>
+              We provide economic and reliable Land Transportation services with
+              our team of experts working world and our constantly vehicle
+              fleet.
+            </p>
+            <a href="html/services.html">Review</a>
+          </li>
+          <!--  -->
+          <li>
+            <i class="fa-solid fa-train"></i>
+            <h3>RAILWAY TRANSPORT</h3>
+            <p>
+              We provide economic and reliable Land Transportation services with
+              our team of experts working world and our constantly vehicle
+              fleet.
+            </p>
+            <a href="html/services.html">Review</a>
+          </li>
+        </ul>
+      </div>
+      <div class="btns_services_carrousel">
+        <a class="buttons prev" href="#"
+          ><i class="fa-solid fa-angles-left"></i
+        ></a>
+        <a class="buttons next" href="#"
+          ><i class="fa-solid fa-angles-right"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- CUSTOMERS -->
+    <section class="customers">
+      <!-- CONTENEDOR - TITULO2 -->
+      <main class="titulo22_seccion">
+        <h1>OUR CUSTOMERS WHO MAKE US</h1>
+        <p>
+          We work day and night for our customers and deliver the shipments as
+          soon as possible.
+        </p>
+      </main>
+      <article class="ancho">
+        <div class="customers_uno">
+          <img src="imagenes/index/client1.png" alt="" />
+          <img src="imagenes/index/client2.png" alt="" />
+          <img src="imagenes/index/client3.png" alt="" />
+          <img src="imagenes/index/client4.png" alt="" />
+          <img src="imagenes/index/client5.png" alt="" />
+        </div>
+        <div class="customers_dos">
+          <img src="imagenes/index/client6.png" alt="" />
+          <img src="imagenes/index/client7.png" alt="" />
+          <img src="imagenes/index/client8.png" alt="" />
+          <img src="imagenes/index/client9.png" alt="" />
+          <img src="imagenes/index/client10.png" alt="" />
+        </div>
+      </article>
+    </section>
+
+    <!-- NEWS -->
+    <!-- CONTENEDOR - TITULO2 -->
+    <main class="titulo2_seccion">
+      <h1>RESENT NEWS AND ARTICLES</h1>
+      <p>Become a news from the world of logistics.</p>
+    </main>
+    <section id="news_carrousel">
+      <div class="viewport">
+        <ul class="overview">
+          <li>
+            <figure>
+              <img src="imagenes/index/news1.png" alt="Texto descriptivo" />
+            </figure>
+            <h4>02.02.2022 - Logistic</h4>
+            <h3>What is maritime transport?</h3>
+            <p>
+              In the international logistics sector, which continues to develop
+              rapidly, it is extremely important ...
+            </p>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3CGIqGihXl2PjMEVmbWXse0y0H8QWyEH5MA&usqp=CAU" target="_blank">More</a>
+          </li>
+          <!--  -->
+          <li>
+            <figure>
+              <img src="imagenes/index/news2.png" alt="Texto descriptivo" />
+            </figure>
+            <h4>02.02.2022 - Logistic</h4>
+            <h3>Storage</h3>
+            <p>
+              Continuing its services by providing bonded and duty-free
+              warehousing services in line with the needs ...
+            </p>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3CGIqGihXl2PjMEVmbWXse0y0H8QWyEH5MA&usqp=CAU" target="_blank">More</a>
+          </li>
+          <!--  -->
+          <li>
+            <figure>
+              <img src="imagenes/index/news3.png" alt="Texto descriptivo" />
+            </figure>
+            <h4>02.02.2022 - Logistic</h4>
+            <h3>Load management</h3>
+            <p>
+              Load management is defined as the planning, operation and
+              management processes of all ...
+            </p>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3CGIqGihXl2PjMEVmbWXse0y0H8QWyEH5MA&usqp=CAU" target="_blank">More</a>
+          </li>
+          <!--  -->
+        </ul>
+      </div>
+      <div class="btns_news_carrousel">
+        <a class="buttons prev" href="#"
+          ><i class="fa-solid fa-angles-left"></i
+        ></a>
+        <p>...</p>
+        <a class="buttons next" href="#"
+          ><i class="fa-solid fa-angles-right"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="info_footer ancho">
+        <img id="img_footer1" src="imagenes/index/logo-footer.png" alt="" />
+        <div class="aux_footer">
+          <img id="img_footer2" src="imagenes/index/logo-footer.png" alt="" />
+          <div class="cont1_info_footer">
+            <div class="links">
+              <h1>LINKS</h1>
+              <hr />
+              <a href="index.html">Home Page</a>
+              <a href="html/about.html">About Us</a>
+              <a href="html/services.html">Services</a>
+              <a id="btn_footer" href="#">Contact</a>
+            </div>
+            <div class="address">
+              <h1>ADDRESS</h1>
+              <hr />
+              <a href="https://goo.gl/maps/snZRwP17UUqADURt8" target="_blank">New Jersey, America</a>
+            </div>
+          </div>
+          <div class="cont2_info_footer">
+            <div class="support">
+              <h1>SUPPORT</h1>
+              <hr />
+              <a href="mailto:reyes_99diego@hotmail.com">reyes@diego.com</a>
+            </div>
+            <div class="follow">
+              <h1>FOLLOW US</h1>
+              <hr />
+              <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://twitter.com/?logout=1670533226425" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="fofooter">
+        <hr />
+        <p>© 2022 - LOGISTICA.</p>
+      </main>
+    </footer>
+
+    <!-- MODAL - FORM -->
+    <section id="modal" class="cont_modal">
+      <div class="cont_form">
+        <form name="formulario">
+          <h1>CONTACT US</h1>
+          <p>We want to hear you. Let us know your doubts.</p>
+          <label for="">Full Name: <span class="rojo">*</span></label><br>
+          <input type="text" name="nombre">
+          <br>
+          <label for="">Email Address: <span class="rojo">*</span></label><br>
+          <input type="email" name="email">
+          <br>
+          <label for="">Phone Number: <span class="rojo">*</span></label><br>
+          <input type="tel" name="telefono">
+          <br>
+          <label for="">Your Message: <span class="rojo">*</span></label><br>
+          <textarea name="" name="mensaje"></textarea>
+          <input class="btn_form" type="button" value="SEND" onclick="validacion_form()">
+          <!-- <button type="submit" onclick="validacion_form()">SEND <i class="fa-solid fa-paper-plane"></i></button> -->
+        </form>
+        <div class="circulo" id="close_modal"><i class="fa-solid fa-xmark"></i></div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
