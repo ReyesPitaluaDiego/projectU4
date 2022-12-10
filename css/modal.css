@@ -111,10 +111,10 @@
 
 @media screen and (max-width:480px){
     .cont_form{
-        width: 70%;
+        width: 90%;
     }
     .cont_form form{
-        width: 91%;
+        width: 100%;
     }
     .cont_form .btn_form{
         width: 50%;
@@ -131,6 +131,10 @@
     }
     .cont_form form p{
         text-align: left;
+        font-size: 14px;
+    }
+    .cont_form form label{
+        font-size: 14px;
     }
     .cont_form form input{
         padding: 10px 15px;

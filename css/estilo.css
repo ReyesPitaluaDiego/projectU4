@@ -190,7 +190,6 @@ header{
 }
 .centered-btns_nav.next {
     left: auto;
-    /* background-position: right top; */
     right: 3%;
     transform: rotate(180deg);
 }
